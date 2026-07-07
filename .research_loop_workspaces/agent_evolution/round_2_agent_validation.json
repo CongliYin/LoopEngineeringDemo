@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "controller_error": false,
+  "score": 97,
+  "summary": "通过：报告已达到核心团队技术分享底稿质量，主题聚焦、路线主体充分、机制与工程实现可落地，评估与选型具备复现和决策价值。",
+  "issues": [],
+  "required_fixes": [],
+  "scorecard": {
+    "topic_coverage": {
+      "score": 97,
+      "blocking_notes": []
+    },
+    "technical_routes": {
+      "score": 96,
+      "blocking_notes": []
+    },
+    "mechanism_depth": {
+      "score": 96,
+      "blocking_notes": []
+    },
+    "source_grounding": {
+      "score": 96,
+      "blocking_notes": []
+    },
+    "engineering_usability": {
+      "score": 98,
+      "blocking_notes": []
+    },
+    "evaluation_design": {
+      "score": 98,
+      "blocking_notes": []
+    },
+    "adoption_guidance": {
+      "score": 96,
+      "blocking_notes": []
+    },
+    "readability": {
+      "score": 97,
+      "blocking_notes": []
+    }
+  },
+  "modification_suggestions": [],
+  "non_blocking_findings": [],
+  "residual_risks": [],
+  "source_audit_notes": [],
+  "next_improvements": []
+}

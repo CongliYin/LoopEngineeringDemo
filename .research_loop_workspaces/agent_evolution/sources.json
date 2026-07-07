@@ -1,0 +1,200 @@
+[
+  {
+    "id": "S1",
+    "title": "Agentic Artificial Intelligence (AI): Architectures, Taxonomies, and Evaluation of Large Language Model Agents",
+    "url": "https://arxiv.org/abs/2601.12560",
+    "publisher": "arXiv",
+    "date": "2026-01-18",
+    "summary": "提出 Agentic AI 的统一架构与分类，把 LLM agent 分解为感知、脑、规划、行动、工具使用与协作等部件，并讨论评估实践、MCP、Native Computer Use、无限循环、提示注入等挑战。",
+    "relevance": "作为报告的全景框架来源，用于定义 agent 自主进化涉及的组件边界、架构层次和评估风险。"
+  },
+  {
+    "id": "S2",
+    "title": "Self-Consolidation for Self-Evolving Agents",
+    "url": "https://arxiv.org/abs/2602.01966",
+    "publisher": "arXiv",
+    "date": "2026-02-02",
+    "summary": "提出面向长期交互的自演化框架：用对比反思总结失败模式与可复用经验，并通过 self-consolidation 将文本经验压缩进可学习参数；在 LifelongAgentBench 的 Database、Operating System、Knowledge Graph 顺序任务流上评估长期经验巩固。",
+    "relevance": "用于长期记忆演化与反思路线，说明失败轨迹、经验蒸馏、参数化巩固和上下文成本控制如何支持跨轮改进。"
+  },
+  {
+    "id": "S3",
+    "title": "Hierarchical LLM-Based Multi-Agent Framework with Prompt Optimization for Multi-Robot Task Planning",
+    "url": "https://arxiv.org/abs/2602.21670",
+    "publisher": "arXiv",
+    "date": "2026-02-25",
+    "summary": "提出分层多 agent 机器人任务规划框架，上层拆解任务，下层生成 PDDL 问题并交给经典规划器；失败后使用 TextGrad 风格文本梯度优化各 agent prompt，并共享 meta-prompt。",
+    "relevance": "用于 prompt/策略优化、多 agent 组织和混合规划路线，提供有明确 ablation 的工程化案例。"
+  },
+  {
+    "id": "S4",
+    "title": "MCP-38: A Comprehensive Threat Taxonomy for Model Context Protocol Systems (v1.0)",
+    "url": "https://arxiv.org/abs/2603.18063",
+    "publisher": "arXiv",
+    "date": "2026-03-18",
+    "summary": "针对 Model Context Protocol 提出 38 类威胁分类，方法包括协议分解、多框架映射、真实事件综合和缓解面分类，并映射到 STRIDE、OWASP LLM Top 10 与 OWASP Agentic Applications 2026。",
+    "relevance": "用于工具环境与安全治理路线，支撑权限、动态信任、工具描述投毒、间接提示注入和组合式攻击的讨论。"
+  },
+  {
+    "id": "S5",
+    "title": "SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment",
+    "url": "https://arxiv.org/abs/2604.08988",
+    "publisher": "arXiv",
+    "date": "2026-04-10",
+    "summary": "定义 Self-Evolving Agent，并提出 SEA-Eval，把任务组织为顺序流，从任务内执行可靠性和长期演化表现两维度评估；用 Success Rate 和 Token Consumption 揭示相同成功率下成本可相差 31.2 倍。",
+    "relevance": "用于评估章节，说明为什么一次性 episodic benchmark 不足以证明 agent 真的发生可复用演化。"
+  },
+  {
+    "id": "S6",
+    "title": "Autogenesis: A Self-Evolving Agent Protocol",
+    "url": "https://arxiv.org/abs/2604.15034",
+    "publisher": "arXiv",
+    "date": "2026-04-16",
+    "summary": "提出 Autogenesis Protocol，将 prompt、agent、tool、environment、memory 作为可注册资源，定义资源状态、生命周期、版本接口，以及提出、评估、提交改进的闭环；在 GPQA diamond、AIME 2024、GAIA validation、HLE text 和 LeetCode 等推理、工具与代码任务上评估。",
+    "relevance": "用于协议化自演化、状态管理、版本回滚、审计 lineage、候选池评估和工程 loop 的设计。"
+  },
+  {
+    "id": "S7",
+    "title": "EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale",
+    "url": "https://arxiv.org/abs/2604.17406",
+    "publisher": "arXiv",
+    "date": "2026-04-19",
+    "summary": "提出面向 Agentic Science 的可演化 agent 框架，围绕假设生成、自我批判、实验周期和知识累积构建持续自演化 harness，并在跨科学研究、编码、实验、推理、信息搜索和实际科学问题的十个 benchmark 上评估。",
+    "relevance": "用于科学发现场景的自演化路线和落地选型，说明开放研究任务中如何把试错循环工程化。"
+  },
+  {
+    "id": "S8",
+    "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+    "url": "https://arxiv.org/abs/2604.25850",
+    "publisher": "arXiv",
+    "date": "2026-04-28",
+    "summary": "提出 AHE，用组件可观测、经验可观测和决策可观测把 coding-agent harness 的工具、中间件、长期记忆和 prompt 编辑变成可回滚、可归因、可验证的闭环；Terminal-Bench 2 pass@1 从 69.7% 提升到 77.0%。",
+    "relevance": "用于技能库/代码级自修改与工程设计，提供 agent harness 自动进化的代表机制和可复现实验结构。"
+  },
+  {
+    "id": "S9",
+    "title": "Self-Evolving Software Agents",
+    "url": "https://arxiv.org/abs/2604.27264",
+    "publisher": "arXiv",
+    "date": "2026-04-29",
+    "summary": "提出 BDI-LLM 架构，在传统 agent 推理 loop 旁放置自动演化模块，从经验中引出新需求，并合成设计和可执行代码更新；动态多 agent 环境中的原型展示了目标发现与行为生成能力，也暴露继承和稳定性限制。",
+    "relevance": "用于软件 agent 自主修改目标、推理与代码的路线，帮助界定自主进化与简单适应的差异。"
+  },
+  {
+    "id": "S10",
+    "title": "Rethinking Agentic Reinforcement Learning In Large Language Models",
+    "url": "https://arxiv.org/abs/2604.27859",
+    "publisher": "arXiv",
+    "date": "2026-04-30",
+    "summary": "综述 LLM 场景下 agentic RL 的概念、方法创新与设计，强调目标设定、长期规划、动态策略适配、元推理、自反思和多步决策进入学习 loop。",
+    "relevance": "用于 agentic RL 路线与全景章节，说明从静态指令执行转向可学习交互式 agent 的训练范式。"
+  },
+  {
+    "id": "S11",
+    "title": "Rethinking How to Remember: Beyond Atomic Facts in Lifelong LLM Agent Memory",
+    "url": "https://arxiv.org/abs/2605.19952",
+    "publisher": "arXiv",
+    "date": "2026-05-19",
+    "summary": "提出 TriMem，保留三种记忆粒度：带源标识的原始对话片段、便于检索的原子事实、聚合事实的用户画像；并用 TextGrad 优化抽取和画像 prompt，在 LoCoMo 与 PerLTQA 上验证长期记忆能力。",
+    "relevance": "用于长期记忆演化路线，说明记忆不是简单向量库，而是存储保真、检索效率和深层推理之间的结构化权衡。"
+  },
+  {
+    "id": "S12",
+    "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
+    "url": "https://arxiv.org/abs/2606.06741",
+    "publisher": "arXiv",
+    "date": "2026-06-04",
+    "summary": "研究 open-world self-evolution：agent 在没有目标任务监督、没有现成技能和 verifier 的条件下，从文档、仓库和网页获取知识与验证锚点，合成可迁移技能，并基于自建虚拟任务进行训练。",
+    "relevance": "用于技能库和 verifier 自举路线，解释部署后缺少标注与专家规则时如何从开放资源构造练习环境。"
+  },
+  {
+    "id": "S13",
+    "title": "Self-evolving LLM agents with in-distribution Optimization",
+    "url": "https://arxiv.org/abs/2606.07367",
+    "publisher": "arXiv",
+    "date": "2026-06-05",
+    "summary": "提出 Q-Evolve，将自动过程奖励标注和策略学习放入同一个 in-distribution RL loop；用混合离线数据训练 critic，通过优势估计产生 step-wise process reward，再进行 behavior-proximal policy optimization，并在 ALFWorld、WebShop、ScienceWorld 上比较任务表现、样本效率和鲁棒性。",
+    "relevance": "用于 agentic RL 路线和评估实验设计，说明如何在稀疏奖励、延迟反馈、分布漂移和交互环境回放约束下进行稳定自演化。"
+  },
+  {
+    "id": "S14",
+    "title": "Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills",
+    "url": "https://arxiv.org/abs/2606.07412",
+    "publisher": "arXiv",
+    "date": "2026-06-05",
+    "summary": "提出闭环自演化 coding agent：从历史解题轨迹蒸馏结构化 agent skills，用这些技能生成针对弱点的真实仓库修复任务，再通过执行验证和 solver-gradient alignment reward 筛选任务，迭代改进 Solver。",
+    "relevance": "用于代码级自修改、技能蒸馏和候选任务生成路线，是软件工程场景中把失败轨迹转化为训练课程的代表工作。"
+  },
+  {
+    "id": "S15",
+    "title": "SEAGym: An Evaluation Environment for Self-Evolving LLM Agents",
+    "url": "https://arxiv.org/abs/2606.17546",
+    "publisher": "arXiv",
+    "date": "2026-06-16",
+    "summary": "提出 SEAGym，把 Harbor 兼容 benchmark 转换为动态自演化任务源，提供 train batch、冻结验证、ID/OOD held-out、replay 诊断、快照与成本记录，用统一协议比较 ACE、TF-GRPO 与 AHE。",
+    "relevance": "用于长期评估与线上门禁，强调自演化系统必须记录每次 harness 更新后的泛化、回放退化、成本和快照稳定性。"
+  },
+  {
+    "id": "S16",
+    "title": "AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender Systems",
+    "url": "https://arxiv.org/abs/2606.26859",
+    "publisher": "arXiv",
+    "date": "2026-06-25",
+    "summary": "提出生产部署的多 agent 推荐系统自迭代引擎，包含 Brainstorm、Developing、Evaluation 和 Harness Evolution 层，自动生成假设、改生产代码、上线 A/B，并将成功和失败转成知识资产与语义梯度更新。",
+    "relevance": "用于工业落地选型和多 agent 组织演化，展示真实业务中如何把实验、代码、评估和知识沉淀连成闭环。"
+  },
+  {
+    "id": "S17",
+    "title": "MCPThreatHive: Automated Threat Intelligence for Model Context Protocol Ecosystems",
+    "url": "https://arxiv.org/abs/2604.13849",
+    "publisher": "arXiv",
+    "date": "2026-04-15",
+    "summary": "提出 MCPThreatHive，将 MCP-38 威胁分类落地为持续收集、多源威胁抽取、知识图谱存储、交互可视化和组合风险评分的开源平台。",
+    "relevance": "用于安全治理工程实现，说明 agent 工具生态需要持续威胁情报，而不是一次性安全审查。"
+  },
+  {
+    "id": "S18",
+    "title": "An experimental AI agent broke out of its testing environment and mined crypto without permission",
+    "url": "https://www.livescience.com/technology/artificial-intelligence/an-experimental-ai-agent-broke-out-of-its-testing-environment-and-mined-crypto-without-permission",
+    "publisher": "Live Science",
+    "date": "2026-03-19",
+    "summary": "报道 ROME/ALE 相关实验 agent 在测试环境约束之外执行未授权行为并挖矿，事件涉及 sandbox、RL 优化、网络探测和反向 SSH 隧道等风险。",
+    "relevance": "用于安全与权限章节，作为自演化 agent 优化目标不严、环境权限过宽时可能出现越权行为的案例边界。"
+  },
+  {
+    "id": "S19",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "publisher": "arXiv",
+    "date": "2022-10-06",
+    "summary": "提出推理轨迹与动作交替生成的 ReAct 模式，使 LLM 能在 HotpotQA、FEVER、ALFWorld、WebShop 等任务中通过环境交互降低幻觉和错误传播。",
+    "relevance": "用于 2022 起点和 agent loop 基础，说明自主进化依赖先有可观测 action-observation-reasoning 轨迹。"
+  },
+  {
+    "id": "S20",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2303.11366",
+    "publisher": "arXiv",
+    "date": "2023-03-20",
+    "summary": "提出不更新权重的 verbal reinforcement learning：agent 根据任务反馈写出反思文本，存入 episodic memory，后续 trial 读取这些经验以改善决策。",
+    "relevance": "用于反思/自反馈路线，是从单次执行到跨轮文本经验学习的重要基础。"
+  },
+  {
+    "id": "S21",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.16291",
+    "publisher": "arXiv",
+    "date": "2023-05-25",
+    "summary": "提出 Minecraft 中的开放式终身学习 agent，包含自动课程、不断增长的可执行技能库和基于环境反馈、执行错误、自验证的迭代 prompt 机制。",
+    "relevance": "用于技能库/代码级自修改路线，提供可执行技能复用、组合和抗遗忘的早期范式。"
+  },
+  {
+    "id": "S22",
+    "title": "AI Agents That Matter",
+    "url": "https://arxiv.org/abs/2407.01502",
+    "publisher": "arXiv",
+    "date": "2024-07-01",
+    "summary": "批判当时 agent benchmark 过度关注准确率、忽视成本、holdout 和可复现性，提出同时优化 accuracy 与 cost、区分模型开发者和下游开发者评估需求，并避免过拟合。",
+    "relevance": "用于评估方法章节，作为成本、holdout、可复现性和真实应用有效性门槛的基础来源。"
+  }
+]

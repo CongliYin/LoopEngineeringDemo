@@ -1,0 +1,12 @@
+已完成本轮修订。
+
+搜索/核验方向：重点核验了 Self-Consolidation/EvoSC、Autogenesis、Q-Evolve/Agentic RL，以及长期记忆 TriMem 相关细节，补齐被 validator 点名的任务环境、benchmark、评估方式、结论边界。
+
+来源更新：`sources.json` 保持 22 个来源，更新了 3 个来源条目（S2、S6、S13）的 summary/relevance；仍为 18/22 个 2026 年来源，比例 0.8182。
+
+报告主要改动：
+- 在路线二、路线五、路线七中新增固定格式“代表来源深读”表，补齐 Self-Consolidation、Autogenesis、Q-Evolve/S10 的任务/环境/方法/评估/边界/工程启发。
+- 在工程章节新增 `TraceEvent` / `Trajectory` schema，覆盖 action、observation、tool_call、权限请求、verifier artifact、cost、model_version、eval_split_hash、rollback lineage。
+- 将该 schema 与 TraceStore、Evaluator、RollbackManager、Candidate、EvalResult、PolicyGate、ValidatorGate 串联，并在评估章节复用同一字段命名。
+
+本地检查：已运行 JSON 格式、来源连续编号、2026 年比例、URL 去重、引用覆盖、章节长度、禁用标题、8 条路线结构完整性检查，均通过。当前目录不是 git 仓库，所以未能运行 git diff/status。
